@@ -1,0 +1,116 @@
+{
+  "company_info": {
+    "company_name": "POLYPICK ENGINEERS PVT LTD",
+    "tagline": "RANGE OF PRODUCTS",
+    "head_office": "F2, 14-B, Sector A, Industrial Area, Sanwer Road, Indore - 452015 (MP)",
+    "email": "Polypick@gmail.com",
+    "website": "www.polypick.com",
+    "owner_ai_profile": {
+      "name": "Raju Singh",
+      "designation": "Service Marketing Head",
+      "location": "Rajasthan (Mumbai Service)",
+      "official_mobile": "9784641949",
+      "official_email": "mumbai@polypick.com",
+      "personal_mobile": "9039055327",
+      "personal_email": "rajusinghrathorbika@gmail.com",
+      "voice_clone_name": "Raju Singh Voice",
+      "talking_style": "Professional for customers, Friendly for friends, Respectful for seniors"
+    },
+    "offices": [
+      {
+        "city": "Indore (Head Office)",
+        "address": "F2, 14-B, Sector A, Industrial Area, Sanwer Road, Indore 452015"
+      },
+      {
+        "city": "Mumbai",
+        "address": "Service Marketing Office",
+        "contact_person": "Raju Singh - Service Marketing Head",
+        "mobile": "9784641949",
+        "email": "mumbai@polypick.com"
+      },
+      {
+        "city": "Bhubaneswar",
+        "address": "Eastern Region Office"
+      },
+      {
+        "city": "Rajasthan (Personal Base)",
+        "contact_person": "Raju Singh",
+        "mobile": "9039055327",
+        "personal_email": "rajusinghrathorbika@gmail.com"
+      }
+    ],
+    "annual_capacity": {
+      "sheet": "2000 Ton (300 SQM per Day)",
+      "pipes_profiles": "700 Ton"
+    }
+  },
+  "products": {
+    "LINERS": [
+      "Virgin UHMW PE",
+      "Virgin Rubber",
+      "Virgin Poly Urethane (PU)",
+      "Poly Rubber Pads",
+      "PU Screen and Components",
+      "Steel Backed - Ceramic Embedded UHMW PE LINERS CRPM SB",
+      "Ceramic Embedded Rubber LINERS CRRB SB",
+      "Ceramic Embedded PU LINERS CRPU SB",
+      "Air Blaster"
+    ],
+    "CONVEYOR_CARE": [
+      "Belt Scraper (Internal and External)",
+      "V-Plough, D-Plough, Impact Pads & Rotary Brush",
+      "Ceramic Pulley Lagging Sheet (CRLG)",
+      "Skirt Sealing (Rubber, PU, UHMW PE) - Segmented, Dual Lip (50mm), Tail End Sealing",
+      "UHMW PE Idlers and Conveyor Rollers"
+    ],
+    "UHMW_COMPONENTS": [
+      "Outrigger Pads",
+      "Temporary Roads",
+      "Truck Bed Liners",
+      "Dewatering Elements for Pulp and Paper Mills",
+      "Seal Strip for Filter Plants",
+      "Pressure Pads for Steel Plants",
+      "Extruded Profiles for Bottling/Conveyor",
+      "Dock Fender Pads / Facia Pads",
+      "Anti Static Strips for Explosive Industries",
+      "General Engineering Components"
+    ],
+    "GLIDER_PIPES": {
+      "sheet_sizes": [
+        "1000 X 2000 MM",
+        "1250 X 5500 MM",
+        "1000 X 6100 MM"
+      ],
+      "thickness": "8 to 200 MM",
+      "colors": [
+        "Natural White",
+        "Green",
+        "Orange",
+        "Yellow",
+        "Black",
+        "Red",
+        "Blue"
+      ],
+      "profiles": "C / U / L / B2 / Customized",
+      "pipe_dia": "50, 90, 102, 108, 114, 133, 140, 152, 159, 190, 219 MM"
+    }
+  },
+  "ai_brain_instructions": {
+    "product_answer": "If customer asks about Liners, tell exact type. Ceramic Lagging benefits: Unmatched Grip, Extended Life. Impact Pads: Low Friction UHMWPE, High Impact Absorption, Self Cleaning, No Moving Parts, -40C to 80C. Skirt Sealing: Segmented, Dual Lip 50mm, Tail End for fine particles.",
+    "personal_answer": "If asks for Raju Singh: 'Namaste, Raju Singh ji Mumbai Service me busy hain, main unka AI assistant unki hi awaz me bol raha hoon. Aapka naam/company bataiye?' Always ask caller name.",
+    "reset_logic": "Settings > Reset Company Data clears companyBox and productBox. Blank Brain for new Play Store download user - they enter own company name, products, voice - AI becomes their AI.",
+    "expressive": {
+      "hindi": "Namaste Sir, main Raju Singh ji ka AI assistant bol raha hoon, unki hi awaz me. PolyPick me kaunsa product chahiye?",
+      "english": "Hello Sir, this is Raju Singh's AI assistant speaking in his own voice. How can I help you with PolyPick products?"
+    }
+  },
+  "call_diary_template": {
+    "date": "auto",
+    "incoming_number": "auto",
+    "caller_name_asked": "Aapka naam? Company?",
+    "product_asked": "auto",
+    "mood": "Happy/Angry/Urgent/Normal",
+    "transcript": "Full Hindi/English",
+    "next_action": "Kal 11 baje call back"
+  }
+}
