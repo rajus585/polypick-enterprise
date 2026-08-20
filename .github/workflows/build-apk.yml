@@ -16,5 +16,5 @@ jobs:
       - run: flutter build apk --release
       - uses: actions/upload-artifact@v4
         with:
-          name: Polypick-Original-APK
+          name: Polypick-Original-APK-Raju-Singh
           path: build/app/outputs/flutter-apk/app-release.apk
