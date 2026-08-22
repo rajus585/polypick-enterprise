@@ -1,21 +1,36 @@
 name: Build Polypick Original APK
-on: [push]
+
+on:
+  push:
+    branches: [ "main" ]
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
-      - uses: actions/setup-java@v5
+
+      - name: Set up Java
+        uses: actions/setup-java@v4
         with:
           distribution: 'zulu'
           java-version: '17'
-      - uses: subosito/flutter-action@v2
+
+      - name: Set up Flutter
+        uses: subosito/flutter-action@v2
         with:
-          flutter-version: '3.22.0'
-          channel: 'stable'
-      - run: flutter pub get
-      - run: flutter build apk --release
-      - uses: actions/upload-artifact@v4
+          flutter-version: '3.19.0'
+          cache: true
+
+      - name: Install Dependencies
+        run: flutter pub get
+
+      - name: Build APK Release
+        run: flutter build apk --release
+
+      - name: Upload APK Artifact
+        uses: actions/upload-artifact@v4
         with:
-          name: Polypick-Original-APK-Raju-Singh-9784641949
+          name: app-release
           path: build/app/outputs/flutter-apk/app-release.apk
